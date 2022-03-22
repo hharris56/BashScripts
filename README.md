@@ -2,12 +2,15 @@
 
 ### generateMake \<filename\>
 generates a make file for Haskell to be run with the make command
-compiler options are intended for 
+compiler options are intended for the [CIS 194](https://www.seas.upenn.edu/~cis194/spring13/lectures.html) course, but is suitable for most simple use cases.
 
-  ex: `generateMake haskellCode`
+Note: Do not include the file extension in the *filename* arument
 
-### md \>dirname\>
+`generateMake haskellCode`
+
+### md \<dirname\>
 creates a new directory using the provided name and navigates into it
+
 NOTE: md must be run in the current process using the source (.) operator
 
-  ex: `. md newfolder`
+`. md newfolder`
